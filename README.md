@@ -1,1 +1,1 @@
-# Nextcloud Local Large Language Model
+# Nextcloud Local Whisper Speech To Text
