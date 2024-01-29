@@ -3,3 +3,5 @@ pydantic
 faster-whisper
 python-multipart
 torch
+nvidia-cublas-cu11
+nvidia-cudnn-cu11

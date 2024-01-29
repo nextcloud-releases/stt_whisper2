@@ -13,6 +13,6 @@ RUN \
   python3 -m pip install -r requirements.txt && rm -rf ~/.cache && rm requirements.txt
 
 WORKDIR /app/lib
-ENTRYPOINT ["python3", "main.py"]
+ENTRYPOINT ["bash", "main.sh"]
 
 LABEL org.opencontainers.image.source=https://github.com/nextcloud/stt_whisper2
