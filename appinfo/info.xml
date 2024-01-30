@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <info>
 	<id>stt_whisper2</id>
-	<name>Local large langauge model</name>
-	<summary>Local large langauge model</summary>
+	<name>Local Whisper Speech To Text</name>
+	<summary>Local Whisper Speech To Text</summary>
 	<description>
 	<![CDATA[
 **Requires [`AppAPI`](https://github.com/cloud-py-api/app_api) to work.**
 	]]></description>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<licence>MIT</licence>
 	<author mail="mklehr@gmx.net" homepage="https://github.com/marcelklehr">Marcel Klehr</author>
 	<author mail="bigcat88@icloud.com" homepage="https://github.com/bigcat88">Alexander Piskun</author>
