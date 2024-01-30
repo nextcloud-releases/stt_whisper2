@@ -1,4 +1,8 @@
-FROM python:3.11-slim-bookworm
+FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
+
+RUN \
+  apt update && \
+  apt install -y python3 python3-pip
 
 COPY requirements.txt /
 
@@ -13,6 +17,6 @@ RUN \
   python3 -m pip install -r requirements.txt && rm -rf ~/.cache && rm requirements.txt
 
 WORKDIR /app/lib
-ENTRYPOINT ["bash", "main.sh"]
+ENTRYPOINT ["python3", "main.py"]
 
 LABEL org.opencontainers.image.source=https://github.com/nextcloud/stt_whisper2
